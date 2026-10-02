@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nicolás Andrade — projects</title>
+    <meta name="description" content="Open source projects by Nicolás Andrade, including a CSV and XLSX to Parquet converter that runs in the browser." />
+    <link rel="canonical" href="https://nicolasandradedesarrollosit.github.io/" />
+    <meta name="robots" content="index, follow" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #fafaf9;
+        --fg: #1c1c1e;
+        --muted: #6b6b70;
+        --line: #e4e4e2;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0c0c0e;
+          --fg: #f2f2f0;
+          --muted: #a0a0a6;
+          --line: #2a2a2e;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 4rem 1rem;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+      }
+      h2 {
+        margin: 0;
+        font-size: 1.125rem;
+      }
+      p {
+        margin: 0.5rem 0 0;
+        color: var(--muted);
+      }
+      a {
+        color: var(--fg);
+        text-underline-offset: 4px;
+      }
+      ul {
+        margin: 2.5rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+      li {
+        padding: 1.5rem;
+        border: 1px solid var(--line);
+        border-radius: 1rem;
+      }
+      footer {
+        margin-top: 2.5rem;
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Nicolás Andrade</h1>
+      <p>Open source projects.</p>
+      <ul>
+        <li>
+          <h2><a href="/csv-xlsx-2-parquet/">csv-xlsx-2-parquet</a></h2>
+          <p>
+            Convert CSV and Excel (XLSX) files to Parquet in your browser. Nothing is uploaded: the conversion runs on
+            your device with DuckDB-WASM.
+          </p>
+          <p>
+            <a href="/csv-xlsx-2-parquet/csv-to-parquet/">CSV to Parquet</a> ·
+            <a href="/csv-xlsx-2-parquet/xlsx-to-parquet/">XLSX to Parquet</a> ·
+            <a href="https://github.com/nicolasandradedesarrollosit/csv-xlsx-2-parquet">Source code</a>
+          </p>
+        </li>
+      </ul>
+      <footer>
+        <a href="https://github.com/nicolasandradedesarrollosit">GitHub profile</a>
+      </footer>
+    </main>
+  </body>
+</html>
