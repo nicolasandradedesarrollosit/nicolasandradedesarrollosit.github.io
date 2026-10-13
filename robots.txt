@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://nicolasandradedesarrollosit.github.io/csv-xlsx-2-parquet/sitemap-index.xml
+Sitemap: https://nicolasandradedesarrollosit.github.io/bull-landing/sitemap-index.xml
